@@ -21,7 +21,9 @@ html {
 }
 
 body {
+  overflow-x: hidden;
 }
+
 
 main {
   margin: 0 auto;
