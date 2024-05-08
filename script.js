@@ -17,6 +17,11 @@ if (+id && !isNaN(+id) && +id > 0 && +id <= 27) {
   img2.src = baseImgPath + `2_2.jpg`;
   // img3.src = baseImgPath + '3.jpg';
   // img4.src = baseImgPath + '4.jpg';
+} else if (+id && !isNaN(+id) && +id === 31) {
+  img1.src = guestsImgPath + `1_${id}.jpg`;
+  img2.src = baseImgPath + `2_2.jpg`;
+  // img3.src = baseImgPath + '3.jpg';
+  // img4.src = baseImgPath + '4.jpg';
 } else if (+id && !isNaN(+id) && +id > 0 && +id <= 30) {
   img1.src = guestsImgPath + `1_${id}.jpg`;
   img2.src = baseImgPath + `2_1.jpg`;
